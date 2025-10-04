@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Desafio 2 - Mostrar e Esconder</title>
+  <style>
+    /* Estilo para centralizar tudo */
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center; /* Centraliza na horizontal */
+      align-items: center;     /* Centraliza na vertical */
+      background-color: #f8f9fa;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Container com conteúdo centralizado */
+    .container {
+      text-align: center;
+      background-color: #ffffff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    button {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 8px 12px;
+      margin: 5px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h2>Desafio 2 - Mostrar e Esconder</h2>
+    <p id="texto">Você deve conseguir esconder e mostrar este parágrafo.</p>
+
+    <button onclick="esconder()">Esconder</button>
+    <button onclick="mostrar()">Mostrar</button>
+  </div>
+
+  <script>
+    function esconder() {
+      document.getElementById("texto").style.display = "none";
+    }
+
+    function mostrar() {
+      document.getElementById("texto").style.display = "block";
+    }
+  </script>
+
+</body>
+</html>
+
+ 
