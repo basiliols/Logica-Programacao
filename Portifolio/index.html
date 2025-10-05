@@ -1,89 +1,102 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <title>Meu Portfólio Legal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Larissa Basilio | Portfólio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
- 
-  <header id="header">
-    <div class="container-header">
-      <h1 class="logo">Larissa Basilio</h1>
-      <nav>
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#sobre">Sobre</a></li>
-          <li><a href="#projetos">Projetos</a></li>
-          <li><a href="#certificados">Certificados</a></li>
-          <li><a href="#contato">Contato</a></li>
-        </ul>
-      </nav>
-    </div>
+  <header>
+    <div class="logo">Larissa Basilio</div>
+    <nav>
+      <ul>
+        <li><a href="#home">Início</a></li>
+        <li><a href="#about">Sobre</a></li>
+        <li><a href="#skills">Cursando & Especializando</a></li>
+        <li><a href="#projects">Projetos</a></li>
+        <li><a href="#contact">Contato</a></li>
+      </ul>
+    </nav>
   </header>
- 
-  <section id="home" class="home-section">
-    <div class="container">
-      <h2>Olá, eu sou <span class="nome-destaque">Larissa Basilio</span></h2>
-      <p>Desenvolvedor(a) Web em formação 🎯 | Criando projetos com criatividade e diversão</p>
-      <img src="sua-foto-ou-ilustracao.jpg" alt="Minha foto" class="foto-home">
+
+  <!-- SEÇÃO HOME -->
+  <section id="home" class="banner">
+    <div class="overlay"></div>
+    <div class="content">
+      <h1>Olá, sou a <span>Larissa Basilio</span></h1>
+      <h3>Sou uma desenvolvedora web apaixonada por tecnologia</h3>
+      <a href="#about" class="btn">Sobre Mim</a>
     </div>
   </section>
- 
-  <section id="sobre" class="sobre-section">
-    <div class="container">
-      <h2>Sobre Mim</h2>
-      <p>Eu estudo ADS Analise e Desenvolvimento de Sistemas e adoro aprender coisas novas. Gosto de front-end, back-end, etc. Estou construindo projetos legais para praticar.</p>
-    </div>
+
+  <!-- SEÇÃO SOBRE -->
+  <section id="about" class="about">
+    <h2>Sobre Mim</h2>
+    <p>
+      Tenho 20 anos e sou estudante de Análise e Desenvolvimento de Sistemas, com foco em banco de dados e back-end. 
+      Sou apaixonada pela lógica, estrutura e pela forma como a tecnologia transforma o mundo ao nosso redor.  
+      Estou em constante aprendizado, aprimorando minhas habilidades com projetos práticos e estudos em Java, SQL e MySQL.  
+      Busco oportunidades para aplicar meus conhecimentos e crescer profissionalmente com dedicação, foco e amor pelo que faço.
+    </p>
   </section>
- 
-  <section id="projetos" class="projetos-section">
-    <div class="container">
-      <h2>Projetos</h2>
-      <div class="galeria-projetos">
-        <div class="projeto-card">
-          <h3>Projeto A</h3>
-          <p>Descrição breve do que fiz.</p>
-          <a href="#" target="_blank">Ver mais</a>
-        </div>
-        <div class="projeto-card">
-          <h3>Projeto B</h3>
-          <p>Descrição breve do que fiz.</p>
-          <a href="#" target="_blank">Ver mais</a>
-        </div>
-        <!-- mais cards -->
+
+  <!-- SEÇÃO HABILIDADES -->
+  <section id="skills" class="skills">
+    <h2>Cursando & Especializando</h2>
+    <div class="skills-container">
+      <div class="skill">
+        <h3>💻 Desenvolvimento Back-End</h3>
+        <p>Aprendendo e aprimorando lógica, estruturas de dados e APIs em Java e Node.js.</p>
+      </div>
+      <div class="skill">
+        <h3>🗄️ Banco de Dados</h3>
+        <p>Foco em modelagem relacional e consultas SQL com MySQL.</p>
+      </div>
+      <div class="skill">
+        <h3>📘 Engenharia de Software</h3>
+        <p>Estudando metodologias ágeis e boas práticas de arquitetura.</p>
       </div>
     </div>
   </section>
- 
-  <section id="certificados" class="certificados-section">
-    <div class="container">
-      <h2>Certificados</h2>
-      <ul>
-        <li>[Curso 1] — [Instituição] — Ano</li>
-        <li>[Curso 2] — [Instituição] — Ano</li>
-      </ul>
+
+  <!-- SEÇÃO PROJETOS -->
+  <section id="projects" class="projects">
+    <h2>Projetos</h2>
+    <div class="project-box">
+      <h3>📄 Artigo — Revista da UMC</h3>
+      <p>
+        Atualmente, estou participando de um projeto para a Revista da UMC, desenvolvendo um artigo que retrata
+        a melhoria de um sistema hospitalar.  
+        O objetivo é propor soluções tecnológicas que tornem os processos internos mais eficientes,
+        acessíveis e centrados no usuário.
+      </p>
     </div>
   </section>
- 
-  <section id="contato" class="contato-section">
-    <div class="container">
-      <h2>Contato</h2>
-      <p>Email:larissabasilio1084@gmail.com</p>
-      <p>Telefone: (11) 93451-7020</p>
-      <p>Ou me manda uma mensagem! 😊</p>
+
+  <!-- SEÇÃO CONTATO -->
+  <section id="contact" class="contact">
+    <h2>Contato</h2>
+    <p>Interessado(a) em conversar ou colaborar? Entre em contato comigo:</p>
+    
+    <div class="contact-grid">
+      <div class="info">
+        <p><strong>📍 CEP:</strong> 08556-350 — Poá, São Paulo</p>
+        <p><strong>📧 E-mail:</strong> <a href="mailto:larissabasilio1084@gmail.com">larissabasilio1084@gmail.com</a></p>
+        <p><strong>📱 Telefone:</strong> <a href="tel:+5511934517020">(11) 93451-7020</a></p>
+      </div>
+      
+      <form action="https://formspree.io/f/mjkeybjv" method="POST" class="form">
+        <input type="text" name="name" placeholder="Nome completo" required>
+        <input type="email" name="email" placeholder="E-mail" required>
+        <textarea name="message" placeholder="Sua mensagem..." required></textarea>
+        <button type="submit" class="btn">Enviar Mensagem</button>
+      </form>
     </div>
   </section>
- 
+
   <footer>
-    <div class="container-footer">
-      <p>© 2025 — Todos os direitos reservados • Feito por Larissa Basilio</p>
-    </div>
+    <p>© 2025 Larissa Basilio — Todos os direitos reservados.</p>
   </footer>
- 
 </body>
 </html>
- 
- 
-
- 
